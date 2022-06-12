@@ -1,3 +1,5 @@
+const dateFormat = require('../utils/dateFormat');
+
 const addDateSuffix = date => {
   let dateStr = date.toString();
 
